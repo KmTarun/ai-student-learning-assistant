@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Learning Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>AI Learning Assistant</h1>
+    <p>Personalized Study & Task Planner</p>
+  </header>
+
+  <section class="card">
+    <h2>Student Profile</h2>
+    <input type="text" placeholder="Education Level">
+    <input type="text" placeholder="Subjects">
+    <input type="text" placeholder="Daily Study Time">
+  </section>
+
+  <section class="card">
+    <h2>Add Assignment</h2>
+    <input type="text" placeholder="Assignment Topic">
+    <input type="date">
+    <button onclick="generatePlan()">Generate Study Plan</button>
+  </section>
+
+  <section class="card" id="output">
+    <h2>AI Generated Plan</h2>
+    <p>Your daily study plan will appear here.</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
